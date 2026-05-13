@@ -1,93 +1,62 @@
-# Dr. Lauren Dagan Amoss — Academic Personal Website
+# Dr. Lauren Dagan Amoss — GitHub Pages Website
 
-This is a simple static academic website prepared for GitHub Pages.
+This is a simple static website for GitHub Pages.
 
-## Files
+## Files included
 
-The website includes three files only:
+- index.html
+- style.css
+- README.md
 
-1. `index.html` — website content and structure  
-2. `style.css` — visual design  
-3. `README.md` — upload and editing instructions  
+## Very important
 
-The site uses HTML and CSS only.
+Upload the files themselves to GitHub.
 
-No JavaScript.  
-No backend.  
-No React.  
-No Python.  
-No complex template.
+Do not upload only the folder.
+Do not upload only the ZIP file.
 
-## Website Purpose
+The file `index.html` must appear in the main/root area of the repository.
 
-The website presents Dr. Lauren Dagan Amoss as:
+## How to upload
 
-- Academic Researcher
-- Lecturer
-- Strategic Consultant
+1. Open your GitHub repository.
+2. Click Add file.
+3. Click Upload files.
+4. Drag these files:
+   - index.html
+   - style.css
+   - README.md
+5. Click Commit changes.
 
-Main areas:
+## How to activate GitHub Pages
 
-- India’s foreign and security policy
-- India–Israel relations
-- Indo-Pacific strategy
-- Strategic affairs
-- Security, deterrence, and maritime security
+1. Go to Settings.
+2. Go to Pages.
+3. Under Source, choose Deploy from a branch.
+4. Under Branch, choose main.
+5. Choose /root.
+6. Click Save.
 
-The website is designed for:
+## Where the website appears
 
-- Academic audiences
-- Security bodies and decision-makers
-- Public lectures and wider audiences
+If the repository is named:
 
-## How to Edit
+username.github.io
 
-Open `index.html` in any text editor.
+then the website will be:
 
-Main editable areas:
+https://username.github.io
 
-- About
-- Education
-- Research Interests
-- Current Projects
-- Selected Publications
-- Teaching
-- Talks and Conferences
-- Strategic Consulting
-- Contact
+If the repository has another name, such as:
 
-To change colors or design, edit `style.css`.
+academic-site
 
-## Contact Links Included
+then the website will be:
 
-- Email: laurendagan@gmail.com
-- Google Scholar
-- LinkedIn
-- WhatsApp Channel
+https://username.github.io/academic-site/
 
-## How to Upload to GitHub Pages
+## Editing
 
-1. Open GitHub.
-2. Create a new repository.
-3. Recommended name:
-   - `laurendaganamoss.github.io`
-   or another name of your choice.
-4. Upload these files:
-   - `index.html`
-   - `style.css`
-   - `README.md`
-5. Go to the repository settings.
-6. Click **Pages**.
-7. Under **Build and deployment**, select:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-8. Click **Save**.
-9. GitHub will generate a public website link.
+Edit the text in index.html.
 
-## Important Notes
-
-- Review all publication details before publishing.
-- Review the PhD line and update the status/year if needed.
-- Add only verified academic and professional information.
-- The website is responsive and works on mobile phones.
+Edit colors and design in style.css.
