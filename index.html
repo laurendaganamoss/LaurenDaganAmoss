@@ -20,6 +20,7 @@
         <a href="#teaching">Teaching</a>
         <a href="#talks">Talks</a>
         <a href="#consulting">Consulting</a>
+        <a href="#hebrew">עברית</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -27,19 +28,50 @@
 
   <main>
     <section class="hero" id="home">
-      <div class="container hero-content">
-        <p class="small-title">India | Israel | Indo-Pacific | Strategic Affairs</p>
-        <h1>Dr. Lauren Dagan Amoss</h1>
-        <h2>Academic Researcher | Lecturer | Strategic Consultant</h2>
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <p class="small-title">India | Israel | Indo-Pacific | Strategic Affairs</p>
+          <h1>Dr. Lauren Dagan Amoss</h1>
+          <h2>Academic Researcher | Lecturer | Strategic Consultant</h2>
 
-        <p class="hero-text">
-          Research, teaching, and strategic analysis on India’s foreign and security policy,
-          India–Israel relations, and the changing strategic architecture of the Indo-Pacific.
-        </p>
+          <p class="hero-text">
+            Academic research, teaching, and strategic analysis on India’s foreign and security policy,
+            India–Israel relations, and the changing strategic architecture of the Indo-Pacific.
+          </p>
 
-        <div class="buttons">
-          <a class="button primary" href="#contact">Invite Me to Speak</a>
-          <a class="button secondary" href="#publications">View Publications</a>
+          <p class="hero-subtext">
+            Bridging academic research, policy analysis, and public engagement for universities,
+            research institutes, security professionals, decision-makers, and wider audiences.
+          </p>
+
+          <div class="buttons">
+            <a class="button primary" href="#contact">Invite Me to Speak</a>
+            <a class="button secondary" href="#publications">View Publications</a>
+            <a class="button hebrew-button" href="#hebrew" dir="rtl">עברית</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <img src="profile.jpg" alt="Portrait of Dr. Lauren Dagan Amoss" class="hero-photo">
+        </div>
+      </div>
+    </section>
+
+    <section class="section positioning-strip">
+      <div class="container">
+        <div class="positioning-grid">
+          <div>
+            <h3>Research Expertise</h3>
+            <p>India’s foreign and security policy, India–Israel relations, Indo-Pacific strategy, and regional order.</p>
+          </div>
+          <div>
+            <h3>Academic Teaching</h3>
+            <p>University courses and lectures in political science, international relations, Indian foreign policy, and security studies.</p>
+          </div>
+          <div>
+            <h3>Strategic Insight</h3>
+            <p>Policy-oriented analysis for professional, security, diplomatic, and public audiences.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -61,6 +93,11 @@
           Professor in the Department of Political Science at Bar-Ilan University. She is also a Senior
           Research Fellow at the Centre for New Age Warfare Studies (CNAWS), India, and a Research Fellow
           at the Begin-Sadat Centre for Strategic Studies (BESA), Israel.
+        </p>
+
+        <p>
+          Her academic and policy work connects scholarly research with strategic interpretation,
+          supporting academic audiences, security professionals, decision-makers, and the wider public.
         </p>
 
         <div class="box">
@@ -230,17 +267,81 @@
       </div>
     </section>
 
+    <section class="section hebrew-section" id="hebrew" dir="rtl" lang="he">
+      <div class="container narrow">
+        <h2>עברית</h2>
+
+        <p>
+          ד״ר לורן דגן עמוס היא חוקרת אקדמית, מרצה ויועצת אסטרטגית המתמחה במדיניות החוץ והביטחון
+          של הודו, ביחסי הודו–ישראל, במרחב ההינדו־פסיפי ובקשרים האסטרטגיים בין אסיה, המזרח התיכון ואירופה.
+        </p>
+
+        <p>
+          עבודתה משלבת מחקר אקדמי, ניתוח מדיניות והנגשת ידע לקהלים אקדמיים, ביטחוניים וציבוריים.
+          ניתן להזמין הרצאות, תדרוכים מקצועיים, סדנאות וייעוץ אסטרטגי בנושאי הודו, יחסי הודו–ישראל,
+          ההינדו־פסיפי, ביטחון אזורי, הרתעה וקישוריות אסטרטגית.
+        </p>
+
+        <div class="hebrew-callout">
+          <h3>להזמנת הרצאות וייעוץ</h3>
+          <p>
+            ניתן לפנות באמצעות טופס יצירת הקשר באתר. כתובת המייל אינה מוצגת באופן פומבי כדי לצמצם ספאם.
+          </p>
+          <a class="button primary" href="#contact">לטופס יצירת קשר</a>
+        </div>
+      </div>
+    </section>
+
     <section class="section alt" id="contact">
       <div class="container narrow">
         <h2>Contact</h2>
 
         <p>
           For lecture invitations, academic collaborations, strategic consulting, media inquiries,
-          or professional briefings, please get in touch.
+          or professional briefings, please use the form below.
         </p>
 
-        <div class="contact-box">
-          <p><strong>Email:</strong> <a href="mailto:laurendagan@gmail.com">laurendagan@gmail.com</a></p>
+        <p class="privacy-note">
+          The public email address is intentionally not displayed on this website in order to reduce spam.
+        </p>
+
+        <!--
+          CONTACT FORM INSTRUCTIONS:
+          1. Create a free account at https://formspree.io
+          2. Create a new form.
+          3. Copy your Formspree endpoint.
+          4. Replace the action URL below:
+             https://formspree.io/f/your-form-id
+          5. After replacement, the form will send messages to your email without exposing your email publicly.
+        -->
+
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+          <label for="organization">Organization / Institution</label>
+          <input type="text" id="organization" name="organization" placeholder="University, institute, media outlet, organization">
+
+          <label for="inquiry-type">Inquiry Type</label>
+          <select id="inquiry-type" name="inquiry_type" required>
+            <option value="">Please select</option>
+            <option value="Lecture invitation">Lecture invitation</option>
+            <option value="Academic collaboration">Academic collaboration</option>
+            <option value="Strategic consulting">Strategic consulting</option>
+            <option value="Media inquiry">Media inquiry</option>
+            <option value="Other">Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Please describe your request briefly." required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="profile-links">
           <p><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=IjHqOFkAAAAJ&hl=iw&inst=1200643855431153338" target="_blank" rel="noopener">View profile</a></p>
           <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/laurendaganamoss/" target="_blank" rel="noopener">linkedin.com/in/laurendaganamoss</a></p>
           <p><strong>WhatsApp Channel:</strong> <a href="https://whatsapp.com/channel/0029Vb71ZbQLCoX73GKRAr0C" target="_blank" rel="noopener">Follow updates</a></p>
